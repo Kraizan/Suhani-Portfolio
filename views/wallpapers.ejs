@@ -1,0 +1,11 @@
+<section id="wallpaper-list">
+  <div class="container-lg">
+    <div class="row">
+    <%  for(var i=0; i<images.length; i++){ %>
+      <div class="my-5 col-xs-10 col-sm-10 col-lg-5 mx-auto wallpaper-image">
+        <a href="wallpaper/<%=i%>"><img src="<%=images[i]%>" class="img-fluid" alt="..."></a>
+      </div>
+    <%  } %>
+    </div>
+  </div>
+</section>

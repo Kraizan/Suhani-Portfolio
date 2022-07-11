@@ -1,0 +1,41 @@
+body {
+  background-image: url("../images/background.jpeg");
+  padding-top: 5rem;
+}
+footer{
+  overflow: hidden;
+}
+.profile-nav{
+  width:7%;
+}
+.profile-heading{
+  width:30%;
+}
+.testimonial-image{
+  width:100%;
+}
+.wallpaper-image{
+  padding: 0;
+  border: 5px solid #ffffff;
+}
+.link-list{
+  display: flex;
+  justify-content: center;
+}
+.link-div{
+  margin: auto 2px;
+  width: auto;
+}
+.link{
+  width: 40px;
+}
+.footer-text a{
+  text-decoration: none;
+  color: #000000;
+}
+.footer-text a:hover{
+  color: red;
+}
+.contact-form{
+  background-color: #000000;
+}
